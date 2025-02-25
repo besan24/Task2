@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bytescout.Spreadsheet" Version="4.7.1.2054" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+    <PackageReference Include="MSTest" Version="3.8.2" />
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="23.7.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.29.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="133.0.6943.12600" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Imeges\" />
+  </ItemGroup>
+
+</Project>
